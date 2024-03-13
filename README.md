@@ -20,20 +20,12 @@ Ensure that path to nvcc binary (install via toolkit) is available in the $PATH 
 ## Dependencies
 To build and run nvbandwidth please install the Boost program_options library (https://www.boost.org/doc/libs/1_66_0/doc/html/program_options.html).
 
-Ubuntu/Debian users can run the following to install:
-```
-apt install libboost-program-options-dev
-```
 On Ubuntu/Debian, we have provided a utility script (debian_install.sh) which installs some generic software components needed for the build.
 The script also builds the nvbandwidth project.
 ```
-sudo ./debian_install.sh
+./debian_install.sh
 ```
 
-Fedora users can run the following to install:
-```
-sudo dnf -y install boost-devel
-```
 
 ## Build
 To build the `nvbandwidth` executable:
